@@ -1,0 +1,110 @@
+/*Table of contents
+CSS Reset
+Universal
+Typography
+Header Section
+About Me
+Skills
+Map
+Experience
+Contact
+*/
+
+
+*{
+  /*--- this is the same starting point for each browser. ---*/
+
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  border: 1px solid blue;
+
+  /*--- we add the border in while building the site and remove before publish. It helps to show divs and sections----*/
+
+  /*a short cut for adding a comment is to write the comment and then command forward slash*/
+  }
+
+/*Universal*/
+
+body {
+  font-size: 1rem;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section, footer {
+  padding: 10vh 10vw;
+}
+/*vh = height vw = width v is a meassurement relative to the device*/
+
+.no-padding {
+  padding: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: teal;
+}
+
+/* Featured stylingThese are element styling that can be repeatable throuhgout the page */
+.featured {
+  background-color: #236892;
+}
+
+.featured .featured-box {
+  background-color: #fff;
+  padding: 10vh 10vw;
+}
+
+.experiences .fa  {
+  font-size: 2rem
+}
+/*Typography*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+/*Header section*/
+
+/*Top Banner Giphy*/
+.top-banner {
+  background-image: url("../images/giphy.gif");
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #333
+}
+
+/*About Me*/
+
+
+
+/*Skills*/
+
+/*Map*/
+
+/*Experience*/
+
+/*Get In Touch */
+footer, footer a {
+  color: white
+}
+a:hover {
+  text-decoration: underline;
+  color: teal;
+}
