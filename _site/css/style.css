@@ -87,7 +87,7 @@ p{
 
 /*Top Banner Giphy*/
 .top-banner {
-  background-image: url("../images/giphy.gif");
+  background-image: url("/images/giphy.gif");
   min-height: 100vh;
   background-size: contain;
   background-attachment: fixed;
