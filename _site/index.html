@@ -1,27 +1,31 @@
----
-layout: default
-skills:
-  - icon: bomb
-    title: Choosing Wine
-    desc: This is a description about my first skill
-  - icon: superpowers
-    title: Opening Wine
-    desc: This is a description about my second skill
-  - icon: facebook
-    title: Sniffing Wine
-    desc: This is a description aout my third skill
-  - icon: plane
-    title: Swirling Wine
-    desc: This is a description about my fourth skill
-  - icon: twitter
-    title: Drinking Wine
-    desc: This is a description about my fifth skill
-  - icon: linkedin
-    title: Finishing Wine
-    desc: This is a description about a sixth skill
+<!DOCTYPE html>
+<html>
 
----
+  <head>
+    <!--Start head element This is where the style sheet, description etc goes -->
+    <title>Tresna's Portfolio Site </title>
 
+    <meta name="viewport" content="width=device-width, initital-scale=1">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- embed your fonts here if they're an external link -->
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+
+<!-- Gridlex -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.2.4/gridlex.min.css">
+
+<!-- Fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--End head element-->
+
+  </head>
+
+  <body>
 <!-- we add the top-banner class to eable us to add the giphy -->
     <section class="top-banner center">
       <header>
@@ -57,17 +61,51 @@ Melbourne Australia</h3>
 
       <h2 class="col-12">My Mad Skillz </h2>
 
-      {% for skill in page.skills %}
+      
       <div class="col-4_md-6_sm-12">
-        <i class="fa fa-{{skill.icon}}" aria-hidden="true"></i>
-        <h3>{{skill.title}}</h3>
-        <p>{{skill.desc}}</p>
+        <i class="fa fa-bomb" aria-hidden="true"></i>
+        <h3>Choosing Wine</h3>
+        <p>This is a description about my first skill</p>
       </div>
-      {% endfor %}
+      
+      <div class="col-4_md-6_sm-12">
+        <i class="fa fa-superpowers" aria-hidden="true"></i>
+        <h3>Opening Wine</h3>
+        <p>This is a description about my second skill</p>
+      </div>
+      
+      <div class="col-4_md-6_sm-12">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <h3>Sniffing Wine</h3>
+        <p>This is a description aout my third skill</p>
+      </div>
+      
+      <div class="col-4_md-6_sm-12">
+        <i class="fa fa-plane" aria-hidden="true"></i>
+        <h3>Swirling Wine</h3>
+        <p>This is a description about my fourth skill</p>
+      </div>
+      
+      <div class="col-4_md-6_sm-12">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <h3>Drinking Wine</h3>
+        <p>This is a description about my fifth skill</p>
+      </div>
+      
+      <div class="col-4_md-6_sm-12">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <h3>Finishing Wine</h3>
+        <p>This is a description about a sixth skill</p>
+      </div>
+      
 
     </section>
 
-  {% include map.html %}
+  <section class="no-padding">
+  <!-- Section for map.  Take the link from Google Maps and just paste it in here -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126232.08049856326!2d115.06894566241016!3d-8.619742093805419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd238567ed4351d%3A0xd4dea0277ed82fa1!2sThe+Palm+House!5e0!3m2!1sid!2sid!4v1488524734927" width="100%" height="450" frameborder="0" style="border:0; pointer-events:none" allowfullscreen></iframe>
+</section>
+
 
       <section id="experiences" class="experiences">
         <!--Section For My Experience  -->
@@ -140,3 +178,7 @@ Melbourne Australia</h3>
 
 
     <!-- End Body this is where the website content goes -->
+
+  </body>
+
+</html>
