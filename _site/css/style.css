@@ -94,7 +94,8 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fbdcda;
-  color: #333
+  color: #333;
+  max-width: 100vw;
 }
 
 /*About Me*/
