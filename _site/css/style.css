@@ -90,10 +90,19 @@ p{
   min-height: 100vh;
   background-size: contain;
   background-attachment: fixed;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-color: #fbdcda;
   color: #333;
+}
+
+.header-title {
+  margin-top: 15vh;
+  width: 50%;
+}
+
+.header-title h1 {
+  font-size: 4rem
 }
 
 /*About Me*/
