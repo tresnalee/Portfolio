@@ -17,7 +17,6 @@ Contact
   margin:0;
   padding:0;
   box-sizing: border-box;
-  border: 1px solid blue;
 
   /*--- we add the border in while building the site and remove before publish. It helps to show divs and sections----*/
 
