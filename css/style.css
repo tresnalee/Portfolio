@@ -90,7 +90,7 @@ p{
   background-image: url("/images/giphy.gif");
   min-height: 100vh;
   background-size: contain;
-  background-attachment: initial;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fbdcda;
@@ -118,7 +118,7 @@ a:hover {
 
 @media (max-width:48em) {
   .top-banner {
-
+    background-attachment: initial;
   }
 
 }
